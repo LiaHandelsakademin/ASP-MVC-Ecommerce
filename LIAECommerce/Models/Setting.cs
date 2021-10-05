@@ -5,11 +5,11 @@ namespace LIAECommerce.Models
 {
     public class Setting
     {
-        public int setting_id { get; set; }
-        public int store_id { get; set; }
-        public string code { get; set; }
-        public string key { get; set; }
-        public string value { get; set; }
-        public short serialized { get; set; }
+        public int SettingId { get; set; }
+        public int StoreId { get; set; }
+        public string Code { get; set; }
+        public string Key { get; set; }
+        public string Value { get; set; }
+        public short Serialized { get; set; }
     }
 }

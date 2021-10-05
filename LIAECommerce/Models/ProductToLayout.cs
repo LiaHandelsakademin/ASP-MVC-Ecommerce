@@ -5,8 +5,11 @@ namespace LIAECommerce.Models
 {
     public class ProductToLayout
     {
-        public int product_id { get; set; }
-        public int store_id { get; set; }
-        public int layout_id { get; set; }
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
+        public int StoreId { get; set; }
+        public Store Store { get; set; }
+        public int LayoutId { get; set; }
+        public Layout Layout { get; set; }
     }
 }

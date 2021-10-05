@@ -5,9 +5,11 @@ namespace LIAECommerce.Models
 {
     public class WeightClassDescription
     {
-        public int weight_class_id { get; set; }
-        public int language_id { get; set; }
-        public string title { get; set; }
-        public string unit { get; set; }
+        public int WeightClassId { get; set; }
+        public WeightClass WeightClass { get; set; }
+        public int LanguageId { get; set; }
+        public Language Language { get; set; }
+        public string Title { get; set; }
+        public string Unit { get; set; }
     }
 }

@@ -5,13 +5,15 @@ namespace LIAECommerce.Models
 {
     public class ProductDiscount
     {
-        public int product_discount_id { get; set; }
-        public int product_id { get; set; }
-        public int customer_group_id { get; set; }
-        public int quantity { get; set; }
-        public int priority { get; set; }
-        public decimal price { get; set; }
-        public DateTime date_start { get; set; }
-        public DateTime date_end { get; set; }
+        public int ProductDiscountId { get; set; }
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
+        public int CustomerGroupId { get; set; }
+        public CustomerGroup CustomerGroup { get; set; }
+        public int Quantity { get; set; }
+        public int Priority { get; set; }
+        public decimal Price { get; set; }
+        public DateTime DateStart { get; set; }
+        public DateTime DateEnd { get; set; }
     }
 }

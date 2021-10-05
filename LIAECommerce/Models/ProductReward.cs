@@ -5,9 +5,11 @@ namespace LIAECommerce.Models
 {
     public class ProductReward
     {
-        public int product_reward_id { get; set; }
-        public int product_id { get; set; }
-        public int customer_group_id { get; set; }
-        public int points { get; set; }
+        public int ProductRewardId { get; set; }
+        public int productId { get; set; }
+        public Product Product { get; set; }
+        public int CustomerGroupId { get; set; }
+        public CustomerGroup CustomerGroup { get; set; }
+        public int Points { get; set; }
     }
 }

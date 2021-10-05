@@ -5,10 +5,10 @@ namespace LIAECommerce.Models
 {
     public class Upload
     {
-        public int upload_id { get; set; }
-        public string name { get; set; }
-        public string filename { get; set; }
-        public string code { get; set; }
-        public DateTime date_added { get; set; }
+        public int UploadId { get; set; }
+        public string Name { get; set; }
+        public string Filename { get; set; }
+        public string Code { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }

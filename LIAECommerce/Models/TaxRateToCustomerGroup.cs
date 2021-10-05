@@ -5,7 +5,9 @@ namespace LIAECommerce.Models
 {
     public class TaxRateToCustomerGroup
     {
-        public int tax_rate_id { get; set; }
-        public int customer_group_id { get; set; }
+        public int TaxRateId { get; set; }
+        public TaxRate TaxRate { get; set; }
+        public int CustomerGroupId { get; set; }
+        public CustomerGroup CustomerGroup { get; set; }
     }
 }

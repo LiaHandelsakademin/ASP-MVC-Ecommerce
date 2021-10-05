@@ -5,7 +5,8 @@ namespace LIAECommerce.Models
 {
     public class ProductRelated
     {
-        public int product_id { get; set; }
-        public int related_id { get; set; }
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
+        public int RelatedId { get; set; }
     }
 }

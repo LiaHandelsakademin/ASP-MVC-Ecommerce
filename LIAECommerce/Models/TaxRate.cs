@@ -5,12 +5,15 @@ namespace LIAECommerce.Models
 {
     public class TaxRate
     {
-        public int tax_rate_id { get; set; }
-        public int geo_zone_id { get; set; }
-        public string name { get; set; }
-        public decimal rate { get; set; }
-        public string type { get; set; }
-        public DateTime date_added { get; set; }
-        public DateTime date_modified { get; set; }
+        public int TaxRateId { get; set; }
+        public int GeoZoneId { get; set; }
+        public GeoZone GeoZone { get; set; }
+        public string Name { get; set; }
+        public decimal Rate { get; set; }
+        public string Type { get; set; }
+        public DateTime DateAdded { get; set; }
+        public DateTime DateModified { get; set; }
+        public ICollection<TaxRule> TaxRules { get; set; }
+
     }
 }

@@ -5,8 +5,8 @@ namespace LIAECommerce.Models
 {
     public class ReturnAction
     {
-        public int return_action_id { get; set; }
-        public int language_id { get; set; }
-        public string name { get; set; }
+        public int ReturnActionId { get; set; }
+        public int LanguageId { get; set; }
+        public string Name { get; set; }
     }
 }

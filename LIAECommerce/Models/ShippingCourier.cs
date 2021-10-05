@@ -5,8 +5,8 @@ namespace LIAECommerce.Models
 {
     public class ShippingCourier
     {
-        public int shipping_courier_id { get; set; }
-        public string shipping_courier_code { get; set; }
-        public string shipping_courier_name { get; set; }
+        public int ShippingCourierId { get; set; }
+        public string ShippingCourierCode { get; set; }
+        public string ShippingCourierName { get; set; }
     }
 }

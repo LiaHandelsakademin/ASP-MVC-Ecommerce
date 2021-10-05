@@ -5,11 +5,14 @@ namespace LIAECommerce.Models
 {
     public class ZoneToGeoZone
     {
-        public int zone_to_geo_zone_id { get; set; }
-        public int country_id { get; set; }
-        public int zone_id { get; set; }
-        public int geo_zone_id { get; set; }
-        public DateTime date_added { get; set; }
-        public DateTime date_modified { get; set; }
+        public int ZoneToGeoZoneId { get; set; }
+        public int CountryId { get; set; }
+        public Country Country { get; set; }
+        public int ZoneId { get; set; }
+        public Zone Zone { get; set; }
+        public int GeoZoneId { get; set; }
+        public GeoZone GeoZone { get; set; }
+        public DateTime DateAdded { get; set; }
+        public DateTime DateModified { get; set; }
     }
 }

@@ -5,10 +5,12 @@ namespace LIAECommerce.Models
 {
     public class TaxRule
     {
-        public int tax_rule_id { get; set; }
-        public int tax_class_id { get; set; }
-        public int tax_rate_id { get; set; }
-        public string based { get; set; }
-        public int priority { get; set; }
+        public int TaxRuleId { get; set; }
+        public int TaxClassId { get; set; }
+        public TaxClass TaxClass { get; set; }
+        public int TaxRateId { get; set; }
+        public TaxRate TaxRate { get; set; }
+        public string Based { get; set; }
+        public int Priority { get; set; }
     }
 }

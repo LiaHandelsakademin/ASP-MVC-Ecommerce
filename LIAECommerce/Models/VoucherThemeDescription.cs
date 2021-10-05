@@ -5,8 +5,10 @@ namespace LIAECommerce.Models
 {
     public class VoucherThemeDescription
     {
-        public int voucher_theme_id { get; set; }
-        public int language_id { get; set; }
-        public string name { get; set; }
+        public int VoucherThemeId { get; set; }
+        public VoucherTheme VoucherTheme { get; set; }
+        public int LanguageId { get; set; }
+        public Language Language { get; set; }
+        public string Name { get; set; }
     }
 }

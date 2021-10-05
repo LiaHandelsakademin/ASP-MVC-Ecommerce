@@ -5,7 +5,9 @@ namespace LIAECommerce.Models
 {
     public class ProductToCategory
     {
-        public int product_id { get; set; }
-        public int category_id { get; set; }
+        public int ProductID { get; set; }
+        public Product Product { get; set; }
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
     }
 }

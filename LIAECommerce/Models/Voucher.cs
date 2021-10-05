@@ -5,17 +5,21 @@ namespace LIAECommerce.Models
 {
     public class Voucher
     {
-        public int voucher_id { get; set; }
-        public int order_id { get; set; }
-        public string code { get; set; }
-        public string from_name { get; set; }
-        public string from_email { get; set; }
-        public string to_name { get; set; }
-        public string to_email { get; set; }
-        public int voucher_theme_id { get; set; }
-        public string message { get; set; }
-        public decimal amount { get; set; }
-        public short status { get; set; }
-        public DateTime date_added { get; set; }
+        public int VoucherId { get; set; }
+        public int OrderId { get; set; }
+        public Order Order { get; set; }
+        public string Code { get; set; }
+        public string FromName { get; set; }
+        public string FromEmail { get; set; }
+        public string ToName { get; set; }
+        public string ToEmail { get; set; }
+        public int VoucherThemeId { get; set; }
+        public VoucherTheme VoucherTheme { get; set; }
+        public string Message { get; set; }
+        public decimal Amount { get; set; }
+        public short Status { get; set; }
+        public DateTime DateAdded { get; set; }
+        public ICollection<VoucherHistory> VoucherHistory { get; set; }
+        public ICollection<OrderVoucher> OrderVouchers { get; set; }
     }
 }

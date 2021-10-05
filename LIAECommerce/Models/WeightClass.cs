@@ -5,7 +5,8 @@ namespace LIAECommerce.Models
 {
     public class WeightClass
     {
-        public int weight_class_id { get; set; }
-        public decimal value { get; set; }
+        public int WeightClassId { get; set; }
+        public decimal Value { get; set; }
+        public ICollection<WeightClassDescription> WeightClassDescriptions { get; set; }
     }
 }

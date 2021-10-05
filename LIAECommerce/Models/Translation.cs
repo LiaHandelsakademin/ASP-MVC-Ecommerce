@@ -5,12 +5,14 @@ namespace LIAECommerce.Models
 {
     public class Translation
     {
-        public int translation_id { get; set; }
-        public int store_id { get; set; }
-        public int language_id { get; set; }
-        public string route { get; set; }
-        public string key { get; set; }
-        public string value { get; set; }
-        public DateTime date_added { get; set; }
+        public int TranslationId { get; set; }
+        public int StoreId { get; set; }
+        public Store Store { get; set; }
+        public int LanguageId { get; set; }
+        public Language Language { get; set; }
+        public string Route { get; set; }
+        public string Key { get; set; }
+        public string Value { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }

@@ -5,14 +5,16 @@ namespace LIAECommerce.Models
 {
     public class Review
     {
-        public int review_id { get; set; }
-        public int product_id { get; set; }
-        public int customer_id { get; set; }
-        public string author { get; set; }
-        public string text { get; set; }
-        public int rating { get; set; }
-        public short status { get; set; }
-        public DateTime date_added { get; set; }
-        public DateTime date_modified { get; set; }
+        public int ReviewId { get; set; }
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
+        public int CustomerId { get; set; }
+        public Customer Customer { get; set; }
+        public string Author { get; set; }
+        public string Text { get; set; }
+        public int Rating { get; set; }
+        public short Status { get; set; }
+        public DateTime DateAdded { get; set; }
+        public DateTime DateModified { get; set; }
     }
 }

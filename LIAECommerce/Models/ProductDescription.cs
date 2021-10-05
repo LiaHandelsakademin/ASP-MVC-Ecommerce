@@ -5,13 +5,15 @@ namespace LIAECommerce.Models
 {
     public class ProductDescription
     {
-        public int product_id { get; set; }
-        public int language_id { get; set; }
-        public string name { get; set; }
-        public string description { get; set; }
-        public string tag { get; set; }
-        public string meta_title { get; set; }
-        public string meta_description { get; set; }
-        public string meta_keyword { get; set; }
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
+        public int LanguageId { get; set; }
+        public Language Language { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string Tag { get; set; }
+        public string MetaTitle { get; set; }
+        public string MetaDescription { get; set; }
+        public string MetaKeyword { get; set; }
     }
 }

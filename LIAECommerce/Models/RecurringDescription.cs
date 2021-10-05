@@ -5,8 +5,10 @@ namespace LIAECommerce.Models
 {
     public class RecurringDescription
     {
-        public int recurring_id { get; set; }
-        public int language_id { get; set; }
-        public string name { get; set; }
+        public int RecurringId { get; set; }
+        public Recurring Recurring { get; set; }
+        public int LanguageId { get; set; }
+        public Language Language { get; set; }
+        public string Name { get; set; }
     }
 }

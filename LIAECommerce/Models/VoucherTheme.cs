@@ -5,7 +5,7 @@ namespace LIAECommerce.Models
 {
     public class VoucherTheme
     {
-        public int voucher_theme_id { get; set; }
-        public string image { get; set; }
+        public int VoucherThemeId { get; set; }
+        public string Image { get; set; }
     }
 }

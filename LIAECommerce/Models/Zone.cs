@@ -5,10 +5,11 @@ namespace LIAECommerce.Models
 {
     public class Zone
     {
-        public int zone_id { get; set; }
-        public int country_id { get; set; }
-        public string name { get; set; }
-        public string code { get; set; }
-        public short status { get; set; }
+        public int ZoneId { get; set; }
+        public int CountryId { get; set; }
+        public Country Country { get; set; }
+        public string Name { get; set; }
+        public string Code { get; set; }
+        public short Status { get; set; }
     }
 }
