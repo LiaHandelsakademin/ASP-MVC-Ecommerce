@@ -1,21 +1,18 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Text;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LIAECommerce.Models
 {
     public class Category
     {
-        [Key]
-        public int CategoryId { get; set; }
-        public string CategoryName { get; set; }
-        public string CategoryDescription { get; set; }
-        public string CategoryImageUrl { get; set; }
-        public DateTime AddDateTime { get; set; }
-        public ICollection<Product> Product { get; set; }
-        public ICollection<Category> Categories { get; set; }
-        //public ICollection<ProductCategory> ProductCategories { get; set; }
+        public int category_id { get; set; }
+        public string image { get; set; }
+        public int parent_id { get; set; }
+        public short top { get; set; }
+        public int column { get; set; }
+        public int sort_order { get; set; }
+        public short status { get; set; }
+        public DateTime date_added { get; set; }
+        public DateTime date_modified { get; set; }
     }
 }

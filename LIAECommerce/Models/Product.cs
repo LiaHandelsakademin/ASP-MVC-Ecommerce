@@ -1,46 +1,40 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
 
 namespace LIAECommerce.Models
 {
     public class Product
     {
-        [Key]
-        public int ProductId { get; set; }
-        public string Name { get; set; }
-        public string ShortDescription { get; set; }
-        public string Description { get; set; }
-        public decimal Price { get; set; }
-        public decimal DiscountedPrice { get; set; }
-        public string Model { get; set; }
-        // Stock Keeping Unit
-        public string SKU { get; set; }
-        // Universla Product Code
-        public string UPC { get; set; }
-        // Quantity in stock
-        public int Quantity { get; set; }
-        // The minimum quantity to order
-        public int MinimumQuantity { get; set; }
-        // true if product can be orderd
-        // false if product cannot be ordered
-        public bool Status { get; set; }
-        // In cm's
-        public double Length { get; set; }
-        public double Width { get; set; }
-        public double Height { get; set; }
-        // In kg's
-        public double Weight { get; set; }
-        // The URL to the image
-        public string MainImageUrl { get; set; }
-        // Points collected by the custmer when they buy this product
-        public int RewardPoints { get; set; }
-        public Stock Stock { get; set; }
-        [InverseProperty(nameof(Picture.Product))]
-        public ICollection<Picture> Pictures { get; set; }
-        public DateTime AddDateTime { get; set; }
-        public ICollection<OrderItem> OrderItems { get; set; }
+        public int product_id { get; set; }
+        public string model { get; set; }
+        public string sku { get; set; }
+        public string upc { get; set; }
+        public string ean { get; set; }
+        public string jan { get; set; }
+        public string isbn { get; set; }
+        public string mpn { get; set; }
+        public string location { get; set; }
+        public int quantity { get; set; }
+        public int stock_status_id { get; set; }
+        public string image { get; set; }
+        public int manufacturer_id { get; set; }
+        public short shipping { get; set; }
+        public decimal price { get; set; }
+        public int points { get; set; }
+        public int tax_class_id { get; set; }
+        public DateTime date_available { get; set; }
+        public decimal weight { get; set; }
+        public int weight_class_id { get; set; }
+        public decimal length { get; set; }
+        public decimal width { get; set; }
+        public decimal height { get; set; }
+        public int length_class_id { get; set; }
+        public short subtract { get; set; }
+        public int minimum { get; set; }
+        public int sort_order { get; set; }
+        public short status { get; set; }
+        public int viewed { get; set; }
+        public DateTime date_added { get; set; }
+        public DateTime date_modified { get; set; }
     }
 }
