@@ -52,6 +52,7 @@ namespace LIAECommerce.Models
         public ICollection<ProductReward> ProductRewards { get; set; }
         public ICollection<ProductSpecial> ProductSpecials { get; set; }
         public ICollection<ProductToStore> ProductStores { get; set; }
+        public ICollection<ProductRelated> ProductsRelated { get; set; }
         public ICollection<Return> Returns { get; set; }
         public ICollection<Review> Reviews { get; set; }
     }

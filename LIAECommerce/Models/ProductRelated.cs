@@ -8,5 +8,6 @@ namespace LIAECommerce.Models
         public int ProductId { get; set; }
         public Product Product { get; set; }
         public int RelatedId { get; set; }
+        public Product RelatedProduct { get; set; }
     }
 }
