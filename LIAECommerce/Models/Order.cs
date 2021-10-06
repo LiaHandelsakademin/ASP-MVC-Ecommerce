@@ -1,70 +1,72 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class Order
     {
-        public int order_id { get; set; }
-        public int invoice_no { get; set; }
-        public string invoice_prefix { get; set; }
-        public int store_id { get; set; }
-        public string store_name { get; set; }
-        public string store_url { get; set; }
-        public int customer_id { get; set; }
-        public int customer_group_id { get; set; }
-        public string firstname { get; set; }
-        public string lastname { get; set; }
-        public string email { get; set; }
-        public string telephone { get; set; }
-        public string fax { get; set; }
-        public string custom_field { get; set; }
-        public string payment_firstname { get; set; }
-        public string payment_lastname { get; set; }
-        public string payment_company { get; set; }
-        public string payment_address_1 { get; set; }
-        public string payment_address_2 { get; set; }
-        public string payment_city { get; set; }
-        public string payment_postcode { get; set; }
-        public string payment_country { get; set; }
-        public int payment_country_id { get; set; }
-        public string payment_zone { get; set; }
-        public int payment_zone_id { get; set; }
-        public string payment_address_format { get; set; }
-        public string payment_custom_field { get; set; }
-        public string payment_method { get; set; }
-        public string payment_code { get; set; }
-        public string shipping_firstname { get; set; }
-        public string shipping_lastname { get; set; }
-        public string shipping_company { get; set; }
-        public string shipping_address_1 { get; set; }
-        public string shipping_address_2 { get; set; }
-        public string shipping_city { get; set; }
-        public string shipping_postcode { get; set; }
-        public string shipping_country { get; set; }
-        public int shipping_country_id { get; set; }
-        public string shipping_zone { get; set; }
-        public int shipping_zone_id { get; set; }
-        public string shipping_address_format { get; set; }
-        public string shipping_custom_field { get; set; }
-        public string shipping_method { get; set; }
-        public string shipping_code { get; set; }
-        public string comment { get; set; }
-        public decimal total { get; set; }
-        public int order_status_id { get; set; }
-        public int affiliate_id { get; set; }
-        public decimal commission { get; set; }
-        public int marketing_id { get; set; }
-        public string tracking { get; set; }
-        public int language_id { get; set; }
-        public int currency_id { get; set; }
-        public string currency_code { get; set; }
-        public decimal currency_value { get; set; }
-        public string ip { get; set; }
-        public string forwarded_ip { get; set; }
-        public string user_agent { get; set; }
-        public string accept_language { get; set; }
-        public DateTime date_added { get; set; }
-        public DateTime date_modified { get; set; }
+        public int OrderId { get; set; }
+        public int InvoiceNo { get; set; }
+        public string InvoicePrefix { get; set; }
+        public int StoreId { get; set; }
+        public string StoreName { get; set; }
+        public string StoreUrl { get; set; }
+        public int CustomerId { get; set; }
+        public int CustomerGroupId { get; set; }
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
+        public string Email { get; set; }
+        public string Telephone { get; set; }
+        public string Fax { get; set; }
+        public string CustomField { get; set; }
+        public string PaymentFirstname { get; set; }
+        public string PaymentLastname { get; set; }
+        public string PaymentCompany { get; set; }
+        public string PaymentAddress1 { get; set; }
+        public string PaymentAddress2 { get; set; }
+        public string PaymentCity { get; set; }
+        public string PaymentPostcode { get; set; }
+        public string PaymentCountry { get; set; }
+        public int PaymentCountryId { get; set; }
+        public string PaymentZone { get; set; }
+        public int PaymentZoneId { get; set; }
+        public string PaymentAddressFormat { get; set; }
+        public string PaymentCustomField { get; set; }
+        public string PaymentMethod { get; set; }
+        public string PaymentCode { get; set; }
+        public string ShippingFirstname { get; set; }
+        public string ShippingLastname { get; set; }
+        public string ShippingCompany { get; set; }
+        public string ShippingAddress1 { get; set; }
+        public string ShippingAddress2 { get; set; }
+        public string ShippingCity { get; set; }
+        public string ShippingPostcode { get; set; }
+        public string ShippingCountry { get; set; }
+        public int ShippingCountryId { get; set; }
+        public string ShippingZone { get; set; }
+        public int ShippingZoneId { get; set; }
+        public string ShippingAddressFormat { get; set; }
+        public string ShippingCustomField { get; set; }
+        public string ShippingMethod { get; set; }
+        public string ShippingCode { get; set; }
+        public string Comment { get; set; }
+        public decimal Total { get; set; }
+        public int OrderStatusId { get; set; }
+        public int AffiliateId { get; set; }
+        public decimal Commission { get; set; }
+        public int MarketingId { get; set; }
+        public string Tracking { get; set; }
+        public int LanguageId { get; set; }
+        public int CurrencyId { get; set; }
+        public string CurrencyCode { get; set; }
+        public decimal CurrencyValue { get; set; }
+        public string Ip { get; set; }
+        public string ForwardedIp { get; set; }
+        public string UserAgent { get; set; }
+        public string AcceptLanguage { get; set; }
+        public DateTime DateAdded { get; set; }
+        public DateTime DateModified { get; set; }
     }
 }

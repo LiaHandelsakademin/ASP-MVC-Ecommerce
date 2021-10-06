@@ -1,17 +1,19 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class Language
     {
-        public int language_id { get; set; }
-        public string name { get; set; }
-        public string code { get; set; }
-        public string locale { get; set; }
-        public string image { get; set; }
-        public string directory { get; set; }
-        public int sort_order { get; set; }
-        public short status { get; set; }
+        public int LanguageId { get; set; }
+        public string Name { get; set; }
+        public string Code { get; set; }
+        public string Locale { get; set; }
+        public string Image { get; set; }
+        public string Directory { get; set; }
+        public int SortOrder { get; set; }
+        public short Status { get; set; }
     }
 }

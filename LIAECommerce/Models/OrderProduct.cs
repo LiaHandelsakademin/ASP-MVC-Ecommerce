@@ -1,19 +1,21 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class OrderProduct
     {
-        public int order_product_id { get; set; }
-        public int order_id { get; set; }
-        public int product_id { get; set; }
-        public string name { get; set; }
-        public string model { get; set; }
-        public int quantity { get; set; }
-        public decimal price { get; set; }
-        public decimal total { get; set; }
-        public decimal tax { get; set; }
-        public int reward { get; set; }
+        public int OrderProductId { get; set; }
+        public int OrderId { get; set; }
+        public int ProductId { get; set; }
+        public string Name { get; set; }
+        public string Model { get; set; }
+        public int Quantity { get; set; }
+        public decimal Price { get; set; }
+        public decimal Total { get; set; }
+        public decimal Tax { get; set; }
+        public int Reward { get; set; }
     }
 }

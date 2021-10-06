@@ -1,12 +1,14 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class InformationToLayout
     {
-        public int information_id { get; set; }
-        public int store_id { get; set; }
-        public int layout_id { get; set; }
+        public int InformationId { get; set; }
+        public int StoreId { get; set; }
+        public int LayoutId { get; set; }
     }
 }

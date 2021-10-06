@@ -1,15 +1,17 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class Event
     {
-        public int event_id { get; set; }
-        public string code { get; set; }
-        public string trigger { get; set; }
-        public string action { get; set; }
-        public short status { get; set; }
-        public int sort_order { get; set; }
+        public int EventId { get; set; }
+        public string Code { get; set; }
+        public string Trigger { get; set; }
+        public string Action { get; set; }
+        public short Status { get; set; }
+        public int SortOrder { get; set; }
     }
 }

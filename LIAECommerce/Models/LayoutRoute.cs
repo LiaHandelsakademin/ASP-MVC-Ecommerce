@@ -1,13 +1,15 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class LayoutRoute
     {
-        public int layout_route_id { get; set; }
-        public int layout_id { get; set; }
-        public int store_id { get; set; }
-        public string route { get; set; }
+        public int LayoutRouteId { get; set; }
+        public int LayoutId { get; set; }
+        public int StoreId { get; set; }
+        public string Route { get; set; }
     }
 }

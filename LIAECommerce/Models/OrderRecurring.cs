@@ -1,29 +1,31 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class OrderRecurring
     {
-        public int order_recurring_id { get; set; }
-        public int order_id { get; set; }
-        public string reference { get; set; }
-        public int product_id { get; set; }
-        public string product_name { get; set; }
-        public int product_quantity { get; set; }
-        public int recurring_id { get; set; }
-        public string recurring_name { get; set; }
-        public string recurring_description { get; set; }
-        public string recurring_frequency { get; set; }
-        public short recurring_cycle { get; set; }
-        public short recurring_duration { get; set; }
-        public decimal recurring_price { get; set; }
-        public short trial { get; set; }
-        public string trial_frequency { get; set; }
-        public short trial_cycle { get; set; }
-        public short trial_duration { get; set; }
-        public decimal trial_price { get; set; }
-        public short status { get; set; }
-        public DateTime date_added { get; set; }
+        public int OrderRecurringId { get; set; }
+        public int OrderId { get; set; }
+        public string Reference { get; set; }
+        public int ProductId { get; set; }
+        public string ProductName { get; set; }
+        public int ProductQuantity { get; set; }
+        public int RecurringId { get; set; }
+        public string RecurringName { get; set; }
+        public string RecurringDescription { get; set; }
+        public string RecurringFrequency { get; set; }
+        public short RecurringCycle { get; set; }
+        public short RecurringDuration { get; set; }
+        public decimal RecurringPrice { get; set; }
+        public short Trial { get; set; }
+        public string TrialFrequency { get; set; }
+        public short TrialCycle { get; set; }
+        public short TrialDuration { get; set; }
+        public decimal TrialPrice { get; set; }
+        public short Status { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }

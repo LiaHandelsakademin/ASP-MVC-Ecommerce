@@ -1,12 +1,14 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class OptionDescription
     {
-        public int option_id { get; set; }
-        public int language_id { get; set; }
-        public string name { get; set; }
+        public int OptionId { get; set; }
+        public int LanguageId { get; set; }
+        public string Name { get; set; }
     }
 }

@@ -1,31 +1,33 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class GoogleshoppingProduct
     {
-        public long product_advertise_google_id { get; set; }
-        public int? product_id { get; set; }
-        public int store_id { get; set; }
-        public short? has_issues { get; set; }
-        public string destination_status { get; set; }
-        public int impressions { get; set; }
-        public int clicks { get; set; }
-        public int conversions { get; set; }
-        public decimal cost { get; set; }
-        public decimal conversion_value { get; set; }
-        public string google_product_category { get; set; }
-        public string condition { get; set; }
-        public short? adult { get; set; }
-        public int? multipack { get; set; }
-        public short? is_bundle { get; set; }
-        public string age_group { get; set; }
-        public int? color { get; set; }
-        public string gender { get; set; }
-        public string size_type { get; set; }
-        public string size_system { get; set; }
-        public int? size { get; set; }
-        public short is_modified { get; set; }
+        public long ProductAdvertiseGoogleId { get; set; }
+        public int? ProductId { get; set; }
+        public int StoreId { get; set; }
+        public short? HasIssues { get; set; }
+        public string DestinationStatus { get; set; }
+        public int Impressions { get; set; }
+        public int Clicks { get; set; }
+        public int Conversions { get; set; }
+        public decimal Cost { get; set; }
+        public decimal ConversionValue { get; set; }
+        public string GoogleProductCategory { get; set; }
+        public string Condition { get; set; }
+        public short? Adult { get; set; }
+        public int? Multipack { get; set; }
+        public short? IsBundle { get; set; }
+        public string AgeGroup { get; set; }
+        public int? Color { get; set; }
+        public string Gender { get; set; }
+        public string SizeType { get; set; }
+        public string SizeSystem { get; set; }
+        public int? Size { get; set; }
+        public short IsModified { get; set; }
     }
 }

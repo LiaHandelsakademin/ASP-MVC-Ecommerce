@@ -1,13 +1,15 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class ExtensionInstall
     {
-        public int extension_install_id { get; set; }
-        public int extension_download_id { get; set; }
-        public string filename { get; set; }
-        public DateTime date_added { get; set; }
+        public int ExtensionInstallId { get; set; }
+        public int ExtensionDownloadId { get; set; }
+        public string Filename { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }

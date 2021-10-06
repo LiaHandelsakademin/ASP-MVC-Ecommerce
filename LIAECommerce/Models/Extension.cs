@@ -1,12 +1,14 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class Extension
     {
-        public int extension_id { get; set; }
-        public string type { get; set; }
-        public string code { get; set; }
+        public int ExtensionId { get; set; }
+        public string Type { get; set; }
+        public string Code { get; set; }
     }
 }

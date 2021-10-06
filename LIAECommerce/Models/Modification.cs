@@ -1,19 +1,21 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class Modification
     {
-        public int modification_id { get; set; }
-        public int extension_install_id { get; set; }
-        public string name { get; set; }
-        public string code { get; set; }
-        public string author { get; set; }
-        public string version { get; set; }
-        public string link { get; set; }
-        public string xml { get; set; }
-        public short status { get; set; }
-        public DateTime date_added { get; set; }
+        public int ModificationId { get; set; }
+        public int ExtensionInstallId { get; set; }
+        public string Name { get; set; }
+        public string Code { get; set; }
+        public string Author { get; set; }
+        public string Version { get; set; }
+        public string Link { get; set; }
+        public string Xml { get; set; }
+        public short Status { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }

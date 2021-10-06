@@ -1,12 +1,14 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class GoogleshoppingCategory
     {
-        public string google_product_category { get; set; }
-        public int store_id { get; set; }
-        public int category_id { get; set; }
+        public string GoogleProductCategory { get; set; }
+        public int StoreId { get; set; }
+        public int CategoryId { get; set; }
     }
 }

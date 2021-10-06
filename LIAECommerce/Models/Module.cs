@@ -1,13 +1,15 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class Module
     {
-        public int module_id { get; set; }
-        public string name { get; set; }
-        public string code { get; set; }
-        public string setting { get; set; }
+        public int ModuleId { get; set; }
+        public string Name { get; set; }
+        public string Code { get; set; }
+        public string Setting { get; set; }
     }
 }

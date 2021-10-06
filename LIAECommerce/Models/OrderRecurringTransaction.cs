@@ -1,15 +1,17 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class OrderRecurringTransaction
     {
-        public int order_recurring_transaction_id { get; set; }
-        public int order_recurring_id { get; set; }
-        public string reference { get; set; }
-        public string type { get; set; }
-        public decimal amount { get; set; }
-        public DateTime date_added { get; set; }
+        public int OrderRecurringTransactionId { get; set; }
+        public int OrderRecurringId { get; set; }
+        public string Reference { get; set; }
+        public string Type { get; set; }
+        public decimal Amount { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }

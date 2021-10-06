@@ -1,11 +1,13 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class LengthClass
     {
-        public int length_class_id { get; set; }
-        public decimal value { get; set; }
+        public int LengthClassId { get; set; }
+        public decimal Value { get; set; }
     }
 }

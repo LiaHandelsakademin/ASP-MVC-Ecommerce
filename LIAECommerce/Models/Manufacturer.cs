@@ -1,13 +1,15 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class Manufacturer
     {
-        public int manufacturer_id { get; set; }
-        public string name { get; set; }
-        public string image { get; set; }
-        public int sort_order { get; set; }
+        public int ManufacturerId { get; set; }
+        public string Name { get; set; }
+        public string Image { get; set; }
+        public int SortOrder { get; set; }
     }
 }

@@ -1,12 +1,14 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class Option
     {
-        public int option_id { get; set; }
-        public string type { get; set; }
-        public int sort_order { get; set; }
+        public int OptionId { get; set; }
+        public string Type { get; set; }
+        public int SortOrder { get; set; }
     }
 }

@@ -1,14 +1,16 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class OrderShipment
     {
-        public int order_shipment_id { get; set; }
-        public int order_id { get; set; }
-        public DateTime date_added { get; set; }
-        public string shipping_courier_id { get; set; }
-        public string tracking_number { get; set; }
+        public int OrderShipmentId { get; set; }
+        public int OrderId { get; set; }
+        public DateTime DateAdded { get; set; }
+        public string ShippingCourierId { get; set; }
+        public string TrackingNumber { get; set; }
     }
 }

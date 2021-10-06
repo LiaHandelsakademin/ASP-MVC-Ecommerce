@@ -1,21 +1,23 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class OrderVoucher
     {
-        public int order_voucher_id { get; set; }
-        public int order_id { get; set; }
-        public int voucher_id { get; set; }
-        public string description { get; set; }
-        public string code { get; set; }
-        public string from_name { get; set; }
-        public string from_email { get; set; }
-        public string to_name { get; set; }
-        public string to_email { get; set; }
-        public int voucher_theme_id { get; set; }
-        public string message { get; set; }
-        public decimal amount { get; set; }
+        public int OrderVoucherId { get; set; }
+        public int OrderId { get; set; }
+        public int VoucherId { get; set; }
+        public string Description { get; set; }
+        public string Code { get; set; }
+        public string FromName { get; set; }
+        public string FromEmail { get; set; }
+        public string ToName { get; set; }
+        public string ToEmail { get; set; }
+        public int VoucherThemeId { get; set; }
+        public string Message { get; set; }
+        public decimal Amount { get; set; }
     }
 }

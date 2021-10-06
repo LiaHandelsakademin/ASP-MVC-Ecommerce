@@ -1,12 +1,14 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class GoogleshoppingProductTarget
     {
-        public int product_id { get; set; }
-        public int store_id { get; set; }
-        public long advertise_google_target_id { get; set; }
+        public int ProductId { get; set; }
+        public int StoreId { get; set; }
+        public long AdvertiseGoogleTargetId { get; set; }
     }
 }

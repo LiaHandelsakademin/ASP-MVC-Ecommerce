@@ -1,18 +1,20 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class Location
     {
-        public int location_id { get; set; }
-        public string name { get; set; }
-        public string address { get; set; }
-        public string telephone { get; set; }
-        public string fax { get; set; }
-        public string geocode { get; set; }
-        public string image { get; set; }
-        public string open { get; set; }
-        public string comment { get; set; }
+        public int LocationId { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public string Telephone { get; set; }
+        public string Fax { get; set; }
+        public string Geocode { get; set; }
+        public string Image { get; set; }
+        public string Open { get; set; }
+        public string Comment { get; set; }
     }
 }

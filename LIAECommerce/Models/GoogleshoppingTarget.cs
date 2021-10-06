@@ -1,18 +1,20 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class GoogleshoppingTarget
     {
-        public long advertise_google_target_id { get; set; }
-        public int store_id { get; set; }
-        public string campaign_name { get; set; }
-        public string country { get; set; }
-        public decimal budget { get; set; }
-        public string feeds { get; set; }
-        public string status { get; set; }
-        public DateTime? date_added { get; set; }
-        public int roas { get; set; }
+        public long AdvertiseGoogleTargetId { get; set; }
+        public int StoreId { get; set; }
+        public string CampaignName { get; set; }
+        public string Country { get; set; }
+        public decimal Budget { get; set; }
+        public string Feeds { get; set; }
+        public string Status { get; set; }
+        public DateTime? DateAdded { get; set; }
+        public int Roas { get; set; }
     }
 }

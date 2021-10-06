@@ -1,13 +1,15 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LIAECommerce.Models
 {
     public class Information
     {
-        public int information_id { get; set; }
-        public int bottom { get; set; }
-        public int sort_order { get; set; }
-        public short status { get; set; }
+        public int InformationId { get; set; }
+        public int Bottom { get; set; }
+        public int SortOrder { get; set; }
+        public short Status { get; set; }
     }
 }
