@@ -5,12 +5,12 @@ namespace LIAECommerce.Models
 {
     public class CustomField
     {
-        public int custom_field_id { get; set; }
-        public string type { get; set; }
-        public string value { get; set; }
-        public string validation { get; set; }
-        public string location { get; set; }
-        public short status { get; set; }
-        public int sort_order { get; set; }
+        public int CustomFieldId { get; set; }
+        public string Type { get; set; }
+        public string Value { get; set; }
+        public string Validation { get; set; }
+        public string Location { get; set; }
+        public short Status { get; set; }
+        public int SortOrder { get; set; }
     }
 }

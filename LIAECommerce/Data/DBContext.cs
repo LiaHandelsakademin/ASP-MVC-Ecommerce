@@ -10,6 +10,8 @@ namespace LIAECommerce.Data
 {
     public class DBContext : IdentityDbContext
     {
+        public DBContext(DbContextOptions<DBContext> options) : base(options) { }
+
         public DbSet<Download> Downloads { get; set; }
         public DbSet<DownloadDescription> DownloadDescriptions { get; set; }
         public DbSet<Event> Events { get; set; }
@@ -18,8 +20,8 @@ namespace LIAECommerce.Data
         public DbSet<ExtensionPath> ExtensionPaths { get; set; }
         public DbSet<Filter> Filters { get; set; }
         public DbSet<FilterDescription> FilterDescriptions { get; set; }
-        public DbSet<FilterGroup> FilterGroups  { get; set; }
-        public DbSet<FilterGroupDescription> FilterGroupDescriptions  { get; set; }
+        public DbSet<FilterGroup> FilterGroups { get; set; }
+        public DbSet<FilterGroupDescription> FilterGroupDescriptions { get; set; }
         public DbSet<GeoZone> GeoZones { get; set; }
         public DbSet<GoogleshoppingCategory> GoogleshoppingCategories { get; set; }
         public DbSet<GoogleshoppingProduct> GoogleshoppingProducts { get; set; }
@@ -56,12 +58,6 @@ namespace LIAECommerce.Data
         public DbSet<OrderStatus> OrderStatuses { get; set; }
         public DbSet<OrderTotal> OrderTotals { get; set; }
         public DbSet<OrderVoucher> OrderVouchers { get; set; }
-
-        public DBContext(DbContextOptions<DBContext> options)
-            : base(options)
-        {
-        }
-
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductAttribute> ProductAttributes { get; set; }
         public DbSet<ProductDescription> ProductDescriptions { get; set; }

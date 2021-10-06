@@ -5,9 +5,9 @@ namespace LIAECommerce.Models
 {
     public class CustomFieldValueDescription
     {
-        public int custom_field_value_id { get; set; }
-        public int language_id { get; set; }
-        public int custom_field_id { get; set; }
-        public string name { get; set; }
+        public int CustomFieldValueId { get; set; }
+        public int LanguageId { get; set; }
+        public int CustomFieldId { get; set; }
+        public string Name { get; set; }
     }
 }

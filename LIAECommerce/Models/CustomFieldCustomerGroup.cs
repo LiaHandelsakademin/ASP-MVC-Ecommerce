@@ -5,8 +5,8 @@ namespace LIAECommerce.Models
 {
     public class CustomFieldCustomerGroup
     {
-        public int custom_field_id { get; set; }
-        public int customer_group_id { get; set; }
-        public short required { get; set; }
+        public int CustomFieldId { get; set; }
+        public int CustomerGroupId { get; set; }
+        public short Required { get; set; }
     }
 }

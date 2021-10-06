@@ -5,14 +5,14 @@ namespace LIAECommerce.Models
 {
     public class Cart
     {
-        public long cart_id { get; set; }
-        public int api_id { get; set; }
-        public int customer_id { get; set; }
-        public string session_id { get; set; }
-        public int product_id { get; set; }
-        public int recurring_id { get; set; }
-        public string option { get; set; }
-        public int quantity { get; set; }
-        public DateTime date_added { get; set; }
+        public long CartId { get; set; }
+        //public int api_id { get; set; }
+        public int CustomerId { get; set; }
+        public string SessionId { get; set; }
+        public int ProductId { get; set; }
+        public int RecurringId { get; set; }
+        public string Option { get; set; }
+        public int Quantity { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }

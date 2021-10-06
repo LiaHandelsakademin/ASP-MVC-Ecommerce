@@ -5,8 +5,8 @@ namespace LIAECommerce.Models
 {
     public class CategoryPath
     {
-        public int category_id { get; set; }
-        public int path_id { get; set; }
-        public int level { get; set; }
+        public int CategoryId { get; set; }
+        public int PathId { get; set; }
+        public int Level { get; set; }
     }
 }

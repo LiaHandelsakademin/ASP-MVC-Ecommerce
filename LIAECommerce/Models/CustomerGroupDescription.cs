@@ -5,9 +5,9 @@ namespace LIAECommerce.Models
 {
     public class CustomerGroupDescription
     {
-        public int customer_group_id { get; set; }
-        public int language_id { get; set; }
-        public string name { get; set; }
-        public string description { get; set; }
+        public int CustomerGroupId { get; set; }
+        public int LanguageId { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }

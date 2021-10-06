@@ -5,11 +5,11 @@ namespace LIAECommerce.Models
 {
     public class CustomerActivity
     {
-        public int customer_activity_id { get; set; }
-        public int customer_id { get; set; }
-        public string key { get; set; }
-        public string data { get; set; }
-        public string ip { get; set; }
-        public DateTime date_added { get; set; }
+        public int CustomerActivityId { get; set; }
+        public int CustomerId { get; set; }
+        public string Key { get; set; }
+        public string Data { get; set; }
+        //public string ip { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }

@@ -5,8 +5,8 @@ namespace LIAECommerce.Models
 {
     public class Banner
     {
-        public int banner_id { get; set; }
-        public string name { get; set; }
-        public short status { get; set; }
+        public int BannerId { get; set; }
+        public string Name { get; set; }
+        public short Status { get; set; }
     }
 }

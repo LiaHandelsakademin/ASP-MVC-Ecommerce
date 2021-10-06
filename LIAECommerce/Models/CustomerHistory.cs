@@ -5,9 +5,9 @@ namespace LIAECommerce.Models
 {
     public class CustomerHistory
     {
-        public int customer_history_id { get; set; }
-        public int customer_id { get; set; }
-        public string comment { get; set; }
-        public DateTime date_added { get; set; }
+        public int CustomerHistoryId { get; set; }
+        public int CustomerId { get; set; }
+        public string Comment { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }

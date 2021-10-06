@@ -5,7 +5,7 @@ namespace LIAECommerce.Models
 {
     public class CategoryFilter
     {
-        public int category_id { get; set; }
-        public int filter_id { get; set; }
+        public int CategoryId { get; set; }
+        public int FilterId { get; set; }
     }
 }

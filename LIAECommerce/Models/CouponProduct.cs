@@ -5,8 +5,8 @@ namespace LIAECommerce.Models
 {
     public class CouponProduct
     {
-        public int coupon_product_id { get; set; }
-        public int coupon_id { get; set; }
-        public int product_id { get; set; }
+        public int CouponProductId { get; set; }
+        public int CouponId { get; set; }
+        public int ProductId { get; set; }
     }
 }

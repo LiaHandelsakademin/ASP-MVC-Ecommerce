@@ -5,9 +5,9 @@ namespace LIAECommerce.Models
 {
     public class CustomerApproval
     {
-        public int customer_approval_id { get; set; }
-        public int customer_id { get; set; }
-        public string type { get; set; }
-        public DateTime date_added { get; set; }
+        public int CustomerApprovalId { get; set; }
+        public int CustomerId { get; set; }
+        public string Type { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }

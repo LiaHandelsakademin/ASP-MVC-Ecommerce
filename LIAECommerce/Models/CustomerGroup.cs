@@ -5,8 +5,8 @@ namespace LIAECommerce.Models
 {
     public class CustomerGroup
     {
-        public int customer_group_id { get; set; }
-        public int approval { get; set; }
-        public int sort_order { get; set; }
+        public int CustomerGroupId { get; set; }
+        public int Approval { get; set; }
+        public int SortOrder { get; set; }
     }
 }

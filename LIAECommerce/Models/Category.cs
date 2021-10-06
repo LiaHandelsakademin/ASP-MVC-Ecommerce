@@ -5,14 +5,14 @@ namespace LIAECommerce.Models
 {
     public class Category
     {
-        public int category_id { get; set; }
-        public string image { get; set; }
-        public int parent_id { get; set; }
-        public short top { get; set; }
-        public int column { get; set; }
-        public int sort_order { get; set; }
-        public short status { get; set; }
-        public DateTime date_added { get; set; }
-        public DateTime date_modified { get; set; }
+        public int CategoryId { get; set; }
+        public string Image { get; set; }
+        public int ParentId { get; set; }
+        public short Top { get; set; }
+        public int Column { get; set; }
+        public int SortOrder { get; set; }
+        public short Status { get; set; }
+        public DateTime DateAdded { get; set; }
+        public DateTime DateModified { get; set; }
     }
 }

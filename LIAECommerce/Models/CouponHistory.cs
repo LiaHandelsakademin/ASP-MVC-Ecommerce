@@ -5,11 +5,11 @@ namespace LIAECommerce.Models
 {
     public class CouponHistory
     {
-        public int coupon_history_id { get; set; }
-        public int coupon_id { get; set; }
-        public int order_id { get; set; }
-        public int customer_id { get; set; }
-        public decimal amount { get; set; }
-        public DateTime date_added { get; set; }
+        public int CouponHistoryId { get; set; }
+        public int CouponId { get; set; }
+        public int OrderId { get; set; }
+        public int CustomerId { get; set; }
+        public decimal Amount { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }

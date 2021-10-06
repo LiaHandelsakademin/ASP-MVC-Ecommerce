@@ -5,27 +5,27 @@ namespace LIAECommerce.Models
 {
     public class Customer
     {
-        public int customer_id { get; set; }
-        public int customer_group_id { get; set; }
-        public int store_id { get; set; }
-        public int language_id { get; set; }
-        public string firstname { get; set; }
-        public string lastname { get; set; }
-        public string email { get; set; }
-        public string telephone { get; set; }
-        public string fax { get; set; }
-        public string password { get; set; }
-        public string salt { get; set; }
-        public string cart { get; set; }
-        public string wishlist { get; set; }
-        public short newsletter { get; set; }
-        public int address_id { get; set; }
-        public string custom_field { get; set; }
-        public string ip { get; set; }
-        public short status { get; set; }
-        public short safe { get; set; }
-        public string token { get; set; }
-        public string code { get; set; }
-        public DateTime date_added { get; set; }
+        public int CustomerId { get; set; }
+        public int CustomerGroupId { get; set; }
+        public int StoreId { get; set; }
+        public int LanguageId { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string Telephone { get; set; }
+        public string Fax { get; set; }
+        public string Password { get; set; }
+        public string Salt { get; set; }
+        public string Cart { get; set; }
+        public string Wishlist { get; set; }
+        public short Newsletter { get; set; }
+        public int AddressId { get; set; }
+        public string CustomField { get; set; }
+        //public string ip { get; set; }
+        public short Status { get; set; }
+        public short Safe { get; set; }
+        public string Token { get; set; }
+        public string Code { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }
