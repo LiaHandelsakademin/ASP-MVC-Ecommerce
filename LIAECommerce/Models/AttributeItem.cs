@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace LIAECommerce.Models
 {
-    public class Attribute
+    public class AttributeItem
     {
         public int AttributeId { get; set; }
         public int AttributeGroupId { get; set; }

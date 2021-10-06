@@ -12,6 +12,43 @@ namespace LIAECommerce.Data
     {
         public DBContext(DbContextOptions<DBContext> options) : base(options) { }
 
+        public DbSet<Address> Addresses { get; set; }
+        public DbSet<AttributeItem> Attributes { get; set; }
+        public DbSet<AttributeDescription> AttributeDescriptions { get; set; }
+        public DbSet<AttributeGroup> AttributeGroups { get; set; }
+        public DbSet<AttributeGroupDescription> AttributeGroupDescriptions { get; set; }
+        public DbSet<Banner> Banners { get; set; }
+        public DbSet<BannerImage> BannerImages { get; set; }
+        public DbSet<Cart> Cart { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<CategoryDescription> CategoryDescriptions { get; set; }
+        public DbSet<CategoryFilter> CategoryFilters { get; set; }
+        public DbSet<CategoryPath> CategoryPaths { get; set; }
+        public DbSet<CategoryToLayout> CategoryToLayout { get; set; }
+        public DbSet<CategoryToStore> CategoryToStore { get; set; }
+        public DbSet<Country> Countries { get; set; }
+        public DbSet<Coupon> Coupons { get; set; }
+        public DbSet<CouponCategory> CouponCategories { get; set; }
+        public DbSet<Currency> Currencies { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<CustomerActivity> CustomerActivities { get; set; }
+        public DbSet<CustomerAffiliate> CustomerAffiliates { get; set; }
+        public DbSet<CustomerApproval> CustomerApprovals { get; set; }
+        public DbSet<CustomerGroup> CustomerGroups { get; set; }
+        public DbSet<CustomerGroupDescription> CustomerGroupDescriptions { get; set; }
+        public DbSet<CustomerHistory> CustomerHistories { get; set; }
+        public DbSet<CustomerIp> CustomerIps { get; set; }
+        public DbSet<CustomerLogin> CustomerLogins { get; set; }
+        public DbSet<CustomerOnline> CustomerOnline { get; set; }
+        public DbSet<CustomerReward> CustomerRewards { get; set; }
+        public DbSet<CustomerSearch> CustomerSearches { get; set; }
+        public DbSet<CustomerTransaction> CustomerTransactions { get; set; }
+        public DbSet<CustomerWishlist> CustomerWishlists { get; set; }
+        public DbSet<CustomField> CustomFields { get; set; }
+        public DbSet<CustomFieldCustomerGroup> CustomFieldCustomerGroup { get; set; }
+        public DbSet<CustomFieldDescription> CustomFieldDescriptions { get; set; }
+        public DbSet<CustomFieldValue> CustomFieldValues { get; set; }
+        public DbSet<CustomFieldValueDescription> CustomFieldValueDescriptions { get; set; }
         public DbSet<Download> Downloads { get; set; }
         public DbSet<DownloadDescription> DownloadDescriptions { get; set; }
         public DbSet<Event> Events { get; set; }
