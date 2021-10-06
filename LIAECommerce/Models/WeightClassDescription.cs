@@ -6,9 +6,7 @@ namespace LIAECommerce.Models
     public class WeightClassDescription
     {
         public int WeightClassId { get; set; }
-        public WeightClass WeightClass { get; set; }
         public int LanguageId { get; set; }
-        public Language Language { get; set; }
         public string Title { get; set; }
         public string Unit { get; set; }
     }

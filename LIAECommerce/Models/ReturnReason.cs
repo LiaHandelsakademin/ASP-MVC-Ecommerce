@@ -7,7 +7,6 @@ namespace LIAECommerce.Models
     {
         public int ReturnReasonId { get; set; }
         public int LanguageId { get; set; }
-        public Language Language { get; set; }
         public string Name { get; set; }
     }
 }

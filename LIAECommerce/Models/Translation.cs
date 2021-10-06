@@ -7,9 +7,7 @@ namespace LIAECommerce.Models
     {
         public int TranslationId { get; set; }
         public int StoreId { get; set; }
-        public Store Store { get; set; }
         public int LanguageId { get; set; }
-        public Language Language { get; set; }
         public string Route { get; set; }
         public string Key { get; set; }
         public string Value { get; set; }

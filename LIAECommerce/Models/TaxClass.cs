@@ -10,7 +10,5 @@ namespace LIAECommerce.Models
         public string Description { get; set; }
         public DateTime DateAdded { get; set; }
         public DateTime DateModified { get; set; }
-        public ICollection<Product> Products { get; set; }
-        public ICollection<TaxRule> TaxRules { get; set; }
     }
 }

@@ -7,9 +7,7 @@ namespace LIAECommerce.Models
     {
         public int ReturnHistoryId { get; set; }
         public int ReturnId { get; set; }
-        public Return Return { get; set; }
         public int ReturnStatusId { get; set; }
-        public ReturnStatus ReturnStatus { get; set; }
         public short Notify { get; set; }
         public string Comment { get; set; }
         public DateTime DateAdded { get; set; }

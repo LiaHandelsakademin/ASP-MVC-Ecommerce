@@ -7,6 +7,5 @@ namespace LIAECommerce.Models
     {
         public int WeightClassId { get; set; }
         public decimal Value { get; set; }
-        public ICollection<WeightClassDescription> WeightClassDescriptions { get; set; }
     }
 }
