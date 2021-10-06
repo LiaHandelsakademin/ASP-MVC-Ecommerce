@@ -42,18 +42,31 @@ namespace LIAECommerce.Models
         public int Viewed { get; set; }
         public DateTime DateAdded { get; set; }
         public DateTime DateModified { get; set; }
-        public ICollection<ProductToCategory> ProductCategories { get; set; }
-        public ICollection<ProductToDownload> ProductDownloads { get; set; }
-        public ICollection<ProductDescription> ProductDescriptions { get; set; }
-        public ICollection<ProductDiscount> ProductDiscounts { get; set; }
-        public ICollection<ProductFilter> ProductFilters { get; set; }
-        public ICollection<ProductToLayout> Productlayouts { get; set; }
-        public ICollection<ProductRecurring> ProductRecurrings { get; set; }
-        public ICollection<ProductReward> ProductRewards { get; set; }
-        public ICollection<ProductSpecial> ProductSpecials { get; set; }
-        public ICollection<ProductToStore> ProductStores { get; set; }
-        public ICollection<ProductRelated> ProductsRelated { get; set; }
-        public ICollection<Return> Returns { get; set; }
-        public ICollection<Review> Reviews { get; set; }
+
+        //public ICollection<ProductToCategory> ProductCategories { get; set; }
+
+        //public ICollection<ProductToDownload> ProductDownloads { get; set; }
+
+        //public ICollection<ProductDescription> ProductDescriptions { get; set; }
+
+        //public ICollection<ProductDiscount> ProductDiscounts { get; set; }
+
+        //public ICollection<ProductFilter> ProductFilters { get; set; }
+
+        //public ICollection<ProductToLayout> Productlayouts { get; set; }
+
+        //public ICollection<ProductRecurring> ProductRecurrings { get; set; }
+
+        //public ICollection<ProductReward> ProductRewards { get; set; }
+
+        //public ICollection<ProductSpecial> ProductSpecials { get; set; }
+
+        //public ICollection<ProductToStore> ProductStores { get; set; }
+
+        //public ICollection<ProductRelated> ProductsRelated { get; set; }
+
+        //public ICollection<Return> Returns { get; set; }
+
+        //public ICollection<Review> Reviews { get; set; }
     }
 }
