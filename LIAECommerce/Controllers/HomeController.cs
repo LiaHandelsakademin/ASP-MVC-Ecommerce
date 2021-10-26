@@ -1,5 +1,4 @@
-﻿using LIAECommerce.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -11,14 +10,22 @@ namespace LIAECommerce.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly LIAECommerceContext _context;
+        public HomeController(LIAECommerceContext context)
+        {
+            _context = context;
+        }
         public IActionResult Index()
         {
-            return View();
+            var model = _context.OcProducts.Where(p => p.Points == 400).ToList();
+
+            return View("Index", model);
         }
 
         public IActionResult Privacy()
         {
             return View();
         }
+       
     }
 }

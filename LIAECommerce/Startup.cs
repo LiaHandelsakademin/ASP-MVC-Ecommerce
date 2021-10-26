@@ -9,7 +9,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using LIAECommerce.Data;
 
 namespace LIAECommerce
 {
@@ -28,8 +27,11 @@ namespace LIAECommerce
             services.AddControllersWithViews();
 
             // SQL connection to the database, the connection string is under appsettings.json and gets imported via the configuration provider
-            services.AddDbContext<DBContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("DBContext")));
+            //services.AddDbContext<DBContext>(options =>
+            //options.UseSqlServer(Configuration.GetConnectionString("DBContext")));
+            services.AddDbContext<LIAECommerceContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("EcommerceContext")));
+            //services.AddScoped<>
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

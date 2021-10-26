@@ -1,8 +1,22 @@
-﻿@{
+﻿@model IEnumerable<LIAECommerce.OcProduct>
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div>
+        @*<a asp-controller="Home" asp-action="GetFeaturedProducts">Visa produkter med högsta pöang</a>*@
+        <ul>
+
+            @foreach (var item in Model)
+            {
+                <li>@item.ProductId </li>
+                <li>@item.Points</li>
+
+            }
+        </ul>
+
+    </div>
 </div>

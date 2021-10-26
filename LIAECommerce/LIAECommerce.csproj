@@ -4,15 +4,154 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\DBContext.cs" />
+    <Compile Remove="Data\EcommerceContext.cs" />
+    <Compile Remove="Models\Address.cs" />
+    <Compile Remove="Models\AttributeDescription.cs" />
+    <Compile Remove="Models\AttributeGroup.cs" />
+    <Compile Remove="Models\AttributeGroupDescription.cs" />
+    <Compile Remove="Models\AttributeItem.cs" />
+    <Compile Remove="Models\Banner.cs" />
+    <Compile Remove="Models\BannerImage.cs" />
+    <Compile Remove="Models\Cart.cs" />
+    <Compile Remove="Models\Category.cs" />
+    <Compile Remove="Models\CategoryDescription.cs" />
+    <Compile Remove="Models\CategoryFilter.cs" />
+    <Compile Remove="Models\CategoryPath.cs" />
+    <Compile Remove="Models\CategoryToLayout.cs" />
+    <Compile Remove="Models\CategoryToStore.cs" />
+    <Compile Remove="Models\Country.cs" />
+    <Compile Remove="Models\Coupon.cs" />
+    <Compile Remove="Models\CouponCategory.cs" />
+    <Compile Remove="Models\CouponHistory.cs" />
+    <Compile Remove="Models\CouponProduct.cs" />
+    <Compile Remove="Models\Currency.cs" />
+    <Compile Remove="Models\Customer.cs" />
+    <Compile Remove="Models\CustomerActivity.cs" />
+    <Compile Remove="Models\CustomerAffiliate.cs" />
+    <Compile Remove="Models\CustomerApproval.cs" />
+    <Compile Remove="Models\CustomerGroup.cs" />
+    <Compile Remove="Models\CustomerGroupDescription.cs" />
+    <Compile Remove="Models\CustomerHistory.cs" />
+    <Compile Remove="Models\CustomerIp.cs" />
+    <Compile Remove="Models\CustomerLogin.cs" />
+    <Compile Remove="Models\CustomerOnline.cs" />
+    <Compile Remove="Models\CustomerReward.cs" />
+    <Compile Remove="Models\CustomerSearch.cs" />
+    <Compile Remove="Models\CustomerTransaction.cs" />
+    <Compile Remove="Models\CustomerWishlist.cs" />
+    <Compile Remove="Models\CustomField.cs" />
+    <Compile Remove="Models\CustomFieldCustomerGroup.cs" />
+    <Compile Remove="Models\CustomFieldDescription.cs" />
+    <Compile Remove="Models\CustomFieldValue.cs" />
+    <Compile Remove="Models\CustomFieldValueDescription.cs" />
+    <Compile Remove="Models\Download.cs" />
+    <Compile Remove="Models\DownloadDescription.cs" />
+    <Compile Remove="Models\ErrorViewModel.cs" />
+    <Compile Remove="Models\Event.cs" />
+    <Compile Remove="Models\Extension.cs" />
+    <Compile Remove="Models\ExtensionInstall.cs" />
+    <Compile Remove="Models\ExtensionPath.cs" />
+    <Compile Remove="Models\Filter.cs" />
+    <Compile Remove="Models\FilterDescription.cs" />
+    <Compile Remove="Models\FilterGroup.cs" />
+    <Compile Remove="Models\FilterGroupDescription.cs" />
+    <Compile Remove="Models\GeoZone.cs" />
+    <Compile Remove="Models\GoogleshoppingCategory.cs" />
+    <Compile Remove="Models\GoogleshoppingProduct.cs" />
+    <Compile Remove="Models\GoogleshoppingProductStatus.cs" />
+    <Compile Remove="Models\GoogleshoppingProductTarget.cs" />
+    <Compile Remove="Models\GoogleshoppingTarget.cs" />
+    <Compile Remove="Models\Information.cs" />
+    <Compile Remove="Models\InformationDescription.cs" />
+    <Compile Remove="Models\InformationToLayout.cs" />
+    <Compile Remove="Models\InformationToStore.cs" />
+    <Compile Remove="Models\Language.cs" />
+    <Compile Remove="Models\Layout.cs" />
+    <Compile Remove="Models\LayoutModule.cs" />
+    <Compile Remove="Models\LayoutRoute.cs" />
+    <Compile Remove="Models\LengthClass.cs" />
+    <Compile Remove="Models\LengthClassDescription.cs" />
+    <Compile Remove="Models\Location.cs" />
+    <Compile Remove="Models\Manufacturer.cs" />
+    <Compile Remove="Models\ManufacturerToStore.cs" />
+    <Compile Remove="Models\Marketing.cs" />
+    <Compile Remove="Models\Modification.cs" />
+    <Compile Remove="Models\Module.cs" />
+    <Compile Remove="Models\Option.cs" />
+    <Compile Remove="Models\OptionDescription.cs" />
+    <Compile Remove="Models\OptionValue.cs" />
+    <Compile Remove="Models\OptionValueDescription.cs" />
+    <Compile Remove="Models\Order.cs" />
+    <Compile Remove="Models\OrderHistory.cs" />
+    <Compile Remove="Models\OrderItem.cs" />
+    <Compile Remove="Models\OrderOption.cs" />
+    <Compile Remove="Models\OrderProduct.cs" />
+    <Compile Remove="Models\OrderRecurring.cs" />
+    <Compile Remove="Models\OrderRecurringTransaction.cs" />
+    <Compile Remove="Models\OrderShipment.cs" />
+    <Compile Remove="Models\OrderStatus.cs" />
+    <Compile Remove="Models\OrderTotal.cs" />
+    <Compile Remove="Models\OrderVoucher.cs" />
+    <Compile Remove="Models\Product.cs" />
+    <Compile Remove="Models\ProductAttribute.cs" />
+    <Compile Remove="Models\ProductDescription.cs" />
+    <Compile Remove="Models\ProductDiscount.cs" />
+    <Compile Remove="Models\ProductFilter.cs" />
+    <Compile Remove="Models\ProductImage.cs" />
+    <Compile Remove="Models\ProductOption.cs" />
+    <Compile Remove="Models\ProductOptionValue.cs" />
+    <Compile Remove="Models\ProductRecurring.cs" />
+    <Compile Remove="Models\ProductRelated.cs" />
+    <Compile Remove="Models\ProductReward.cs" />
+    <Compile Remove="Models\ProductSpecial.cs" />
+    <Compile Remove="Models\ProductToCategory.cs" />
+    <Compile Remove="Models\ProductToDownload.cs" />
+    <Compile Remove="Models\ProductToLayout.cs" />
+    <Compile Remove="Models\ProductToStore.cs" />
+    <Compile Remove="Models\Recurring.cs" />
+    <Compile Remove="Models\RecurringDescription.cs" />
+    <Compile Remove="Models\Return.cs" />
+    <Compile Remove="Models\ReturnAction.cs" />
+    <Compile Remove="Models\ReturnHistory.cs" />
+    <Compile Remove="Models\ReturnReason.cs" />
+    <Compile Remove="Models\ReturnStatus.cs" />
+    <Compile Remove="Models\Review.cs" />
+    <Compile Remove="Models\SeoUrl.cs" />
+    <Compile Remove="Models\Session.cs" />
+    <Compile Remove="Models\Setting.cs" />
+    <Compile Remove="Models\ShippingCourier.cs" />
+    <Compile Remove="Models\Statistic.cs" />
+    <Compile Remove="Models\StockStatus.cs" />
+    <Compile Remove="Models\Store.cs" />
+    <Compile Remove="Models\TaxClass.cs" />
+    <Compile Remove="Models\TaxRate.cs" />
+    <Compile Remove="Models\TaxRateToCustomerGroup.cs" />
+    <Compile Remove="Models\TaxRule.cs" />
+    <Compile Remove="Models\Theme.cs" />
+    <Compile Remove="Models\Translation.cs" />
+    <Compile Remove="Models\Upload.cs" />
+    <Compile Remove="Models\Voucher.cs" />
+    <Compile Remove="Models\VoucherHistory.cs" />
+    <Compile Remove="Models\VoucherTheme.cs" />
+    <Compile Remove="Models\VoucherThemeDescription.cs" />
+    <Compile Remove="Models\WeightClass.cs" />
+    <Compile Remove="Models\WeightClassDescription.cs" />
+    <Compile Remove="Models\Zone.cs" />
+    <Compile Remove="Models\ZoneToGeoZone.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.10" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.11">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.11">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
@@ -20,6 +159,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Data\" />
     <Folder Include="Models\ViewModels\" />
   </ItemGroup>
 
